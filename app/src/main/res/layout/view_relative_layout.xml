@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/theView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:tag="relative"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/relativeImageView"
+        android:layout_width="226dp"
+        android:layout_height="271dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/relative_titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeImageView"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif"
+        android:text="Title"
+        android:textColor="@android:color/black"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/relative_locationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="153dp"
+        android:layout_marginStart="42dp"
+        android:text="Location:" />
+
+    <TextView
+        android:id="@+id/relative_locationValueTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/relative_locationTextView"
+        android:layout_marginEnd="90dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/relaitve_distanceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/relative_locationTextView"
+        android:layout_marginBottom="114dp"
+        android:text="Distance from UST:" />
+
+    <TextView
+        android:id="@+id/relative_distanceValueTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/relativeImageView"
+        android:layout_alignTop="@+id/relaitve_distanceTextView"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/relative_nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="23dp"
+        android:text="Next" />
+
+    <Button
+        android:id="@+id/relative_backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/relative_nextButton"
+        android:layout_marginStart="23dp"
+        android:text="Back" />
+
+</RelativeLayout>

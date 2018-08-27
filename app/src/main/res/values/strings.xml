@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">CasugaMcSpenzerLab1</string>
+
+    <string-array name="title">
+        <item>The Reichtag</item>
+        <item>Pergamon</item>
+        <item>Pullman Berlin Schweizerhof</item>
+    </string-array>
+
+    <string name="location">Germany</string>
+
+    <string-array name="distance">
+        <item>9878.44 km</item>
+        <item>10222.99 km</item>
+        <item>9881.00 km</item>
+    </string-array>
+
+    <string-array name="layout_titles">
+        <item>Constraint Layout</item>
+        <item>Relative Layout</item>
+        <item>Linear Layout</item>
+    </string-array>
+</resources>
